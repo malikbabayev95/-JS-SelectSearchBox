@@ -1,0 +1,36 @@
+#cities {
+  padding: 10px;
+  margin: 10%;
+  height: 15px;
+  width: 250px;
+  border: 2px solid #e26868;
+}
+
+#cities:focus {
+  outline: none;
+}
+
+.bottomWrap {
+  position: relative;
+}
+
+.wrapDiv {
+  display: none;
+  height: 200px;
+  overflow-y: scroll;
+  position: absolute;
+  width: 250px;
+  border: 2px solid #e26868;
+  border-top: none;
+  padding: 10px;
+}
+
+.wrapDiv p {
+  padding: 10px 0;
+  margin: 0;
+}
+
+.wrapDiv p:hover {
+  background: #d49393;
+}
+/*# sourceMappingURL=main.css.map */

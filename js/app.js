@@ -1,0 +1,1 @@
+$("#cities").searchDrop("Baki","Naxçıvan","Gəncə","Novxanı","Barama","Beyleqan","Nardaran","Neftcala","Goranboy")

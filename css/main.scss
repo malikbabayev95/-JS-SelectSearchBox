@@ -1,0 +1,33 @@
+
+#cities{
+    padding: 10px;
+    margin: 10%;
+    height: 15px;
+    width: 250px;
+    border: 2px solid rgb(226, 104, 104);
+    &:focus{
+        outline: none;
+    }
+}
+.bottomWrap{
+    position: relative;
+}
+.wrapDiv{
+    display: none;
+    height: 200px;
+    overflow-y: scroll;
+    
+    position: absolute;
+    width: 250px;
+    border: 2px solid rgb(226, 104, 104);
+    border-top: none;
+    padding: 10px;
+    p{
+        padding: 10px 0;
+        margin: 0;
+        &:hover{
+            background: rgb(212, 147, 147);
+            
+        }
+    }
+}
